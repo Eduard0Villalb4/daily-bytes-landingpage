@@ -80,11 +80,7 @@ const Landing = () => {
                           src="./assets/menu.svg"
                           alt="logo"
                         />
-                        <img
-                          className="w-8 mt-5 mx-auto"
-                          src="https://tailwindui.com/img/logos/mark.svg?color=white"
-                          alt="logo"
-                        />
+                      
                         <img
                           className="w-8 mt-5 mx-auto text-white"
                           src="./assets/logout.svg"
