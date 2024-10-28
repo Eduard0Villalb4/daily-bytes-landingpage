@@ -9,13 +9,13 @@ import "./App.css";
 const App: React.FC = () => (
   <div>
     <Routes>
-      <Route path="/home" element={<Landing />} />
+      <Route path="" element={<Landing />} />
       <Route path="/privacy-policy" element={<TAPrivacyPolicy />} />
       <Route path="/terms-and-conditions" element={<TATermsAndCondition />} />
       <Route path="/contact" element={<Contact />} />
 
 
-      <Route path="*/*" element={<Navigate to="/home" />} />
+      <Route path="**" element={<Navigate to="" />} />
     </Routes>
   </div>
 );
