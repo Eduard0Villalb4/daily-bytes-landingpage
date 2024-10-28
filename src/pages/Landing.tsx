@@ -1,21 +1,14 @@
 const Landing = () => {
 
   return (
-    <div className="overflow-y-scroll overflow-x-hidden h-full bg-[#1d1f27]  ">
+    <div className="overflow-y-scroll overflow-x-hidden h-full bg-[#1d1f27]">
       <div className="block absolute -left-1 -top-48 -z-0">
-        {/* <img
-          style={{ opacity: 0.05 }}
-          src={'/assets/images/word.png'}
-          alt={'Vector Dot Map of Mexico'}
-          className='max-w-[200vw] md:max-w-full left-[-45vw] w-[2000px] md:left-0 rotate-90 top-36 md:top-0 !md:w-full fixed transition !md:-rotate-6 md:rotate-0'
-        /> */}
       </div>
       <header className="p-4 lg:py-2 lg:px-0 container mx-auto grid lg:flex lg:justify-between grid-cols-2 text-slate-700 z-20">
         <nav className="flex items-center">
           <div className='z-20'>          
             <h2 className="text-white font-semibold">Daily Bytes</h2>
           </div>
-
         </nav>
         <div className=" lg:flex">
           <a
@@ -25,7 +18,6 @@ const Landing = () => {
             Contact support
           </a>
         </div>
-
       </header>
       <section
         id="aboutSection"
@@ -52,16 +44,10 @@ const Landing = () => {
         <div className="col-span-6 relative">
           <img
             className=" xl:block absolute z-0 right-[9px] top-[13px]"
-            src="/assets/bg-intro-desktop.svg"
-            // style={{ filter: 'grayscale(100%)' }}
+            src="./assets/bg-intro-desktop.svg"
           />
           <picture>
             <source srcSet="/assets/images/bg-intro-desktop.svg" type="image/png" />
-            {/* <img
-              className=" xl:block absolute z-0 right-[9px] top-[13px]"
-              src="./assets/app_bg.png"
-              alt=""
-            /> */}
           </picture>
           <div className='relative flex'>
             <div className='flex-1'>
@@ -283,15 +269,6 @@ const Landing = () => {
           </div>
         </div>
       </section>
-
-
-
-      <section
-        id="reviewsSection"
-        className="py-8 px-4 md:px-8 lg:py-16 2xl:py-40 2xl:px-60 mx-auto relative"
-      >
-    
-      </section>
       <section
         id="downloadSection"
         className={` py-20 px-4 flex flex-col md:flex-row md:space-x-4 space-y-4 bg-[#008cba]  relative text-slate-100`}
@@ -300,7 +277,11 @@ const Landing = () => {
           <h3 className="text-3xl Rlg:text-4xl font-medium mb-4">
             Install App
           </h3>
-          <p className="">Install the app that suits your needs, available for both iOS. If you're a tourist, download the app specifically designed to help you discover new adventures and local activities. If you're a tourist guide, install the app that makes it easy to promote your services and connect with potential clients. With a quick and simple installation process, you'll be ready to start in minutes, whether you're a tourist or a guide.</p>
+          <p className="">
+          Daily Bytes simplifies habit tracking with its unique approach—a minimalist annual calendar represented in cubes. Keep your habits organized and visualize your progress effortlessly with Daily Bytes. Currently, the app is available only for Android devices. Download it from the Google Play Store and start enhancing your daily routine.
+          <br />
+          The iOS version is in the works and will be available soon. Thank you for your patience!
+          </p>
         </div>
         <div
           className={`flex-1 flex justify-end items-end space-x-3`}
@@ -314,15 +295,13 @@ const Landing = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img className='h-20 p-3' src="./assets/images/available-on-the-app-store-logo.png" alt="" />
+                <img className='h-20' src="./assets/images/google-play-badge.webp" alt="" />
               </a>
               <a
-                className=""
-                href=""
-                target="_blank"
+                className="opacity-50"
                 rel="noreferrer"
               >
-                <img className='h-20' src="./assets/images/google-play-badge.webp" alt="" />
+                <img className='h-20 p-[15px]' src="./assets/images/available-on-the-app-store-logo.png" alt="" />
               </a>
             </div>
           </div>
@@ -331,23 +310,20 @@ const Landing = () => {
       <footer className="py-8 px-4 md:px-8 lg:py-16 2xl:px-60 mx-auto relative">
         <div className="grid grid-cols-12 gap-8 text-slate-500 py-16">
           <div className="col-span-4 xl:col-span-4">
-            <span className='font-semibold'>Daily BYtes</span>
+            <span className='font-semibold'>Daily Bytes</span>
             <div className='flex space-x-16'>
               <ul>
                 <li className="py-3">
-                  <a href="./ta-terms-and-conditions">Terms and Conditions</a>
+                  <a className='text-[#008cba]' href="./terms-and-conditions">Terms and Conditions</a>
                 </li>
                 <li className="py-3">
-                  <a href="./ta-privacy-policy">Privacy Policy</a>
+                  <a className='text-[#008cba]' href="./privacy-policy">Privacy Policy</a>
                 </li>
               </ul>
               <ul>
                 <li className="py-3">
-                  <a href="mailto:eduard0.villalb4.com">contact</a>
+                  <a className='text-[#008cba]' href="mailto:eduard0.villalb4.com">contact</a>
                 </li>
-                {/* <li className="py-3">
-                  <a href="./delete-account">Delete account</a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -362,7 +338,7 @@ const Landing = () => {
             >
               <img
                 className=" h-[28px] w-[28px]"
-                src="./assets/email.svg"
+                src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"
                 alt="Email"
               />
             </a>
@@ -370,11 +346,11 @@ const Landing = () => {
               className="mr-6"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.tiktok.com/"
+              href="https://www.tiktok.com/@edudevweb?_t=8qvhfriJaLN&_r=1"
             >
               <img
                 className=" h-[28px] w-[28px]"
-                src="./assets/icons/tiktok-logo.png"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tiktok-round-white-icon.png"
                 alt="Tiktok"
               />
             </a>
@@ -382,19 +358,7 @@ const Landing = () => {
               className="mr-6"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.facebook.com/"
-            >
-              <img
-                className=" h-[28px] w-[28px]"
-                src="./assets/icons/facebook-logo.png"
-                alt="Facebook"
-              />
-            </a>
-            <a
-              className="mr-6"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/eduard0.villalb4?igsh=MWpxdngzZmJmOHVkYg=="
             >
               <img
                 className=" h-[28px] w-[28px]"
@@ -403,7 +367,7 @@ const Landing = () => {
               />
             </a>
           </div>
-          <p className="text-center">Copyright 2023, All Rights Reserved by Daily BYtes</p>
+          <p className="text-center">Made with 💗 & lots of ☕ by @Eduard0.Villalb4</p>
         </div>
       </footer>
     </div>

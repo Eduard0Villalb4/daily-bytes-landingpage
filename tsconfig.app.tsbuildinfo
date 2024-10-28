@@ -1,1 +1,1 @@
-{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Icon.tsx","./src/pages/Landing.tsx","./src/pages/bta-privacy.tsx","./src/pages/bta-terms.tsx","./src/pages/contact.tsx","./src/pages/privacy.tsx","./src/pages/ta-privacy.tsx","./src/pages/ta-terms.tsx","./src/pages/terms.tsx"],"version":"5.6.3"}
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Icon.tsx","./src/pages/Landing.tsx","./src/pages/privacy.tsx","./src/pages/terms.tsx"],"version":"5.6.3"}
