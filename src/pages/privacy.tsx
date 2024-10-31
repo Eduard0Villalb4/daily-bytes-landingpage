@@ -1,8 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 const PrivacyPolicy = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="overflow-y-scroll overflow-x-hidden h-screen w-screen bg-[#1d1f27]">
       <header className="p-4 lg:py-2 lg:px-0 container mx-auto grid lg:flex lg:justify-between grid-cols-2 text-slate-700 z-20">
@@ -12,42 +8,35 @@ const PrivacyPolicy = () => {
           </div>
         </nav>
         <div className=" lg:flex">
-          <button
-            onClick={() => navigate('./contact')}
+        <a
             className="px-4 py-3 bg-[#008cba]  hover:bg-[#008cba] hover:cursor-pointer text-white font-medium rounded-md mx-1 z-20"
+            href="mailto:eduard0.villalb4.com"
           >
             Contact support
-          </button>
+          </a>
         </div>
 
       </header>
 
       <section id="privacyPolicySection" className="p-12 relative">
         <div>
-        <h2>Privacy Policy for DailyBytes</h2>
-          <p>
-            At <strong>DailyBytes</strong>, we respect your privacy. We do not collect, store, or share any personal information. All data, such as habit names and streaks, is stored locally on your device.
-          </p>
-          <h3>1. Information Collected</h3>
-          <p>
-            We do not collect any personal information. All user-generated data remains on the device where the app is used.
-          </p>
-          <h3>2. Use of Information</h3>
-          <p>
-            Since we do not collect any information, we do not use or share personal data with third parties.
-          </p>
-          <h3>3. Data Storage</h3>
-          <p>
-            All information you enter into the app, such as habits and streaks, is stored locally on your device. There are no external servers involved.
-          </p>
-          <h3>4. Security</h3>
-          <p>
-            The security of your data depends on the device you use. Please ensure that your device is secure, as all data resides locally on it.
-          </p>
-          <h3>5. Contact</h3>
-          <p>
-            If you have any questions about this privacy policy, you can contact us at <strong>Eduard0.VIllalb4@gmail.com</strong>.
-          </p>
+          <h2 className='font-bold text-xl mb-6'>Privacy Policy for Daily Bytes</h2>
+          <p className='mb-2'>At <strong>Daily Bytes</strong>, we respect your privacy and are committed to protecting it. This policy explains how we handle and process any data in our app.</p>
+
+          <h3 className='font-semibold text-lg'>1. Information Collected</h3>
+          <p className='mb-2'>Daily Bytes does not collect, access, or share any personal, sensitive, or behavioral user information. All user-generated data, such as habit names and streaks, is stored solely on the user’s device and remains there. No external servers or third-party services are involved in data processing.</p>
+
+          <h3 className='font-semibold text-lg'>2. Use of Information</h3>
+          <p className='mb-2'>Since we do not collect any personal information or user data, there is no usage or sharing of data with third parties. Daily Bytes is designed to function entirely on your device, with no data being sent, collected, or used outside of the app itself.</p>
+
+          <h3 className='font-semibold text-lg'>3. Data Storage and Retention</h3>
+          <p className='mb-2'>All information you enter, such as habits and streaks, is stored locally on your device. This means that your data remains accessible only to you, within the app, and cannot be accessed by us or any third party. The data is deleted automatically if you choose to uninstall the app, ensuring that no trace of your information remains once the app is removed.</p>
+
+          <h3 className='font-semibold text-lg'>4. Security</h3>
+          <p className='mb-2'>The security of your data depends on the security of the device you use. To maintain your data privacy, we recommend using device-level security settings, such as password protection or biometric authentication, to prevent unauthorized access to the app and your locally stored data.</p>
+
+          <h3 className='font-semibold text-lg'>5. Contact Information</h3>
+          <p className='mb-2'>If you have any questions or concerns regarding this privacy policy, please contact us at <a href="mailto:Eduard0.Villalb4@gmail.com">Eduard0.Villalb4@gmail.com</a>.</p>
         </div>
       </section>
 

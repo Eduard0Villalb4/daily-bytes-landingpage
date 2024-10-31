@@ -12,8 +12,7 @@ const App: React.FC = () => (
       <Route path="/" element={<Landing />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
-
-
+      <Route path="/app-privacy-policy" element={<PrivacyPolicy />} />
       <Route path="*/*" element={<Navigate to="/home" />} />
     </Routes>
   </div>

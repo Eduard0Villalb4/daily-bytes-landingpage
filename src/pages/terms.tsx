@@ -1,7 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 const TermsAndCondition = () => {
-  const navigate = useNavigate();
 
   return (
     <div className="overflow-y-scroll overflow-x-hidden h-screen w-screen bg-[#1d1f27]">
@@ -12,12 +9,12 @@ const TermsAndCondition = () => {
           </div>
         </nav>
         <div className=" lg:flex">
-          <button
-            onClick={() => navigate('./contact')}
+        <a
             className="px-4 py-3 bg-[#008cba]  hover:bg-[#008cba] hover:cursor-pointer text-white font-medium rounded-md mx-1 z-20"
+            href="mailto:eduard0.villalb4.com"
           >
             Contact support
-          </button>
+          </a>
         </div>
 
       </header>
