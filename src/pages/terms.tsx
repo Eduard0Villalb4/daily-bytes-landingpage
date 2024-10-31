@@ -4,7 +4,8 @@ const TermsAndCondition = () => {
     <div className="overflow-y-scroll overflow-x-hidden h-screen w-screen bg-[#1d1f27]">
       <header className="p-4 lg:py-2 lg:px-0 container mx-auto grid lg:flex lg:justify-between grid-cols-2 text-slate-700 z-20">
         <nav className="flex items-center">
-          <div className='z-20'>          
+          <div className='z-20 flex flex-row items-center justify-center'>      
+            <img className="h-8 mr-2" src="icon.png" alt="" />    
             <h2 className="text-white font-semibold">Daily Bytes</h2>
           </div>
         </nav>
